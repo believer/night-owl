@@ -205,3 +205,8 @@ GitGutterAdd: 'green .'
 GitGutterChange: 'yellow .'
 GitGutterDelete: 'red .'
 GitGutterChangeDelete: 'yellow .'
+
+##### TypeScript HerringtonDarkholme/yats.vim
+typescriptImport: 'purple . i'
+typescriptExport: 'green2 .'
+typescriptVariable: 'blue .'

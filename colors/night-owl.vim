@@ -141,6 +141,9 @@ hi GitGutterAdd guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi GitGutterChange guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi GitGutterDelete guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi GitGutterChangeDelete guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
+hi typescriptImport guifg=#c792ea ctermfg=176 gui=italic cterm=italic
+hi typescriptExport guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
+hi typescriptVariable guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 
 let g:terminal_color_foreground = "#d6deeb"
 let g:terminal_color_background = "#011627"

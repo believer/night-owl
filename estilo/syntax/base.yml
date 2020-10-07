@@ -42,7 +42,6 @@ PmenuThumb: ''
 Question: ''
 Search: 'dark yellow'
 SpecialKey: 'yellow .'
-# SpecialKey: 'gray4 .'
 SpellBad: ''
 SpellLocal: ''
 SpellCap: ''
@@ -84,7 +83,7 @@ Type: 'green .'
 StorageClass: 'purple .' # Type
 Structure: '' # Type
 Typedef: '' # Type
-Special: ''
+Special: 'yellow .'
 SpecialChar: '' # Special
 Tag: '' # Special
 htmlTag: 'gray'
@@ -98,10 +97,9 @@ Error: ''
 Todo: 'gray7 yellow'
 
 # Javascript - pangloss/vim-javascript
-jsStorageClass: 'blue .'
+jsStorageClass: 'purple .'
 jsOperator: 'purple .'
 jsArrowFunction: 'purple .'
-# jsGlobalNodeObjects: 'green dark'
 jsString: 'yellow .'
 jsComment: 'gray . i'
 jsFuncCall: 'blue .'
@@ -124,6 +122,9 @@ jsModuleAs: 'purple . i'
 jsExport: 'green2 .'
 jsExportDefault: 'green2 .'
 jsExtendsKeyword: 'purple . i'
+jsDestructuringPropertyValue: 'blue . i'
+jsDestructuringBraces: 'purple .'
+jsVariableDef: 'blue . i'
 
 javaScriptReserved: 'blue .'
 javaScriptConditional: 'purple .'
@@ -136,6 +137,9 @@ javaScriptFunction: 'blue .'
 javaScriptStatement: 'purple .'
 # catch
 javaScriptException: 'green .'
+
+# JSX
+jsxComponentName: 'yellow2 .'
 
 ##### CSS and Sass
 scssSelectorName: 'green .'

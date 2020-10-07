@@ -4,7 +4,7 @@
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
 " License: MIT
-" Last Change: 2019/12/18 10:28
+" Last Change: 2020/08/26 13:35
 " ===============================================================
 
 set background=dark
@@ -49,10 +49,11 @@ hi Exception guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi PreProc guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi Type guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi StorageClass guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
+hi Special guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi htmlTag guifg=#637777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link htmlEndTag htmlTag
 hi Todo guifg=#777777 ctermfg=243 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
-hi jsStorageClass guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
+hi jsStorageClass guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsOperator guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsArrowFunction guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsString guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
@@ -77,6 +78,9 @@ hi jsModuleAs guifg=#c792ea ctermfg=176 gui=italic cterm=italic
 hi jsExport guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi jsExportDefault guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi jsExtendsKeyword guifg=#c792ea ctermfg=176 gui=italic cterm=italic
+hi jsDestructuringPropertyValue guifg=#82aaff ctermfg=111 gui=italic cterm=italic
+hi jsDestructuringBraces guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
+hi jsVariableDef guifg=#82aaff ctermfg=111 gui=italic cterm=italic
 hi javaScriptReserved guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi javaScriptConditional guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi javaScriptStringS guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
@@ -87,6 +91,7 @@ hi javaScriptSpecial guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
 hi javaScriptFunction guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi javaScriptStatement guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi javaScriptException guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
+hi jsxComponentName guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
 hi scssSelectorName guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi cssTagName guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi cssClassName guifg=#addb67 ctermfg=149 gui=italic cterm=italic
